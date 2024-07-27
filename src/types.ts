@@ -46,7 +46,7 @@ export type Order = {
   }[];
   deliveryDetails: {
     name: string;
-    addressLine1: string;
+    address: string;
     city: string;
     email: string;
   };
